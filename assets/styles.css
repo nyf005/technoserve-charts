@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Remove background and border from Dash dropdown components */
+.Select-menu-outer {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.Select-control {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.Select-placeholder {
+  color: #6c757d !important;
+}
+
+.Select--multi .Select-value {
+  background-color: #fff !important;
+  color: #495057 !important;
+}
+
+/* styles.css */
+
+/* Ensure the dropdown menus are displayed above other content */
+.Select-menu-outer {
+  z-index: 1000 !important;
+}
+
+.Select-control {
+  z-index: 1000 !important;
+}
+
+/* Add margin to the dropdown containers to prevent overlapping */
+.dcc-dropdown {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1000;
+}
